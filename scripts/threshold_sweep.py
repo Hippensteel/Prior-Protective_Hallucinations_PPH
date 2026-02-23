@@ -6,13 +6,17 @@ Runs n=19 BERTScore consistency at multiple thresholds.
 
 import json
 import sys
-sys.path.insert(0, "/Users/hippensteel/Vaults/Mainframe/Research/Hypothesis Engine/PPH-001/PPH Understanding The Machine")
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_DIR = SCRIPT_DIR.parent
+sys.path.insert(0, str(SCRIPT_DIR))
 
 from selfcheckgpt_test import load_stochastic_runs, extract_claims
 from sentence_transformers import SentenceTransformer, util
 
-DATA_DIR = "/Users/hippensteel/Vaults/Mainframe/Research/Hypothesis Engine/PPH-001/raw-phase2a/"
-OUTPUT = DATA_DIR + "selfcheckgpt_threshold_sweep.json"
+DATA_DIR = str(REPO_DIR / "data" / "phase2a") + "/"
+OUTPUT = str(REPO_DIR / "data" / "phase2a" / "selfcheckgpt_threshold_sweep.json")
 THRESHOLDS = [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80]
 N_REF = 19
 

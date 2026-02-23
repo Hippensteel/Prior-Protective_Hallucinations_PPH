@@ -7,13 +7,17 @@ Tests every run as anchor to check result stability.
 import json
 import sys
 import numpy as np
-sys.path.insert(0, "/Users/hippensteel/Vaults/Mainframe/Research/Hypothesis Engine/PPH-001/PPH Understanding The Machine")
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_DIR = SCRIPT_DIR.parent
+sys.path.insert(0, str(SCRIPT_DIR))
 
 from selfcheckgpt_test import load_stochastic_runs, extract_claims
 from sentence_transformers import SentenceTransformer, util
 
-DATA_DIR = "/Users/hippensteel/Vaults/Mainframe/Research/Hypothesis Engine/PPH-001/raw-phase2a/"
-OUTPUT = DATA_DIR + "selfcheckgpt_anchor_rotation.json"
+DATA_DIR = str(REPO_DIR / "data" / "phase2a") + "/"
+OUTPUT = str(REPO_DIR / "data" / "phase2a" / "selfcheckgpt_anchor_rotation.json")
 THRESHOLD = 0.65
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
