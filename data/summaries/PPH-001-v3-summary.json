@@ -1,0 +1,50 @@
+[
+  {
+    "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-v3",
+    "model": "claude-opus-4.6",
+    "scenario": "economics",
+    "words": 394,
+    "time_s": 1.81,
+    "model_returned": "anthropic/claude-opus-4.6"
+  },
+  {
+    "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-v3",
+    "model": "claude-opus-4.6",
+    "scenario": "physics",
+    "words": 370,
+    "time_s": 1.03,
+    "model_returned": "anthropic/claude-opus-4.6"
+  },
+  {
+    "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-v3",
+    "model": "gemini-3-pro",
+    "scenario": "economics",
+    "words": 499,
+    "time_s": 3.47,
+    "model_returned": "google/gemini-3-pro-preview"
+  },
+  {
+    "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-v3",
+    "model": "gemini-3-pro",
+    "scenario": "physics",
+    "words": 387,
+    "time_s": 3.36,
+    "model_returned": "google/gemini-3-pro-preview"
+  },
+  {
+    "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-v3",
+    "model": "deepseek-r1",
+    "scenario": "economics",
+    "words": 605,
+    "time_s": 1.64,
+    "model_returned": "deepseek/deepseek-r1"
+  },
+  {
+    "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-v3",
+    "model": "deepseek-r1",
+    "scenario": "physics",
+    "words": 918,
+    "time_s": 1.61,
+    "model_returned": "deepseek/deepseek-r1"
+  }
+]

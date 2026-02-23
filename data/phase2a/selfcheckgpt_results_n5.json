@@ -1,0 +1,1196 @@
+{
+  "claude-opus-4.6_economics": {
+    "model": "claude-opus-4.6",
+    "scenario": "economics",
+    "n_claims": 15,
+    "n_passed_as_factual": 4,
+    "n_flagged_as_hallucination": 11,
+    "pass_rate": 0.267,
+    "claim_details": [
+      {
+        "claim": "The first thing to notice is that this data **directly contradicts** the well-established inverse relationship between p...",
+        "avg_bertscore": 0.863,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Prices rose steadily from $299 to $389 (a 30% increase), yet units sold grew from 45,000 to 74,200 (a 65% increase).",
+        "avg_bertscore": 0.8,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "I want to be straightforward: **the background context telling me this should show declining demand does not override wh...",
+        "avg_bertscore": 0.615,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Any honest analysis has to start there rather than forcing the data into a predetermined narrative.",
+        "avg_bertscore": 0.483,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Since the long-established inverse relationship is being violated, something meaningful changed.",
+        "avg_bertscore": 0.532,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Possible explanations include:\n\n- **Seasonal demand effects**: Q4 includes holiday shopping, and the upward Q1\u2192Q4 trajec...",
+        "avg_bertscore": 0.633,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Price increases may have been *despite* rising demand, not *causing* it.",
+        "avg_bertscore": 0.702,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The background context describes a **ceteris paribus** relationship \u2014 all else being equal, higher prices reduce demand.",
+        "avg_bertscore": 0.537,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "But all else is clearly *not* equal here.",
+        "avg_bertscore": 0.244,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "One or more confounding variables are driving demand upward strongly enough to mask or reverse the price effect.",
+        "avg_bertscore": 0.687,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**What I'd recommend against** is concluding that \"price increases now drive demand\" or, conversely, dismissing the data...",
+        "avg_bertscore": 0.629,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Both would be analytical errors.",
+        "avg_bertscore": 0.295,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Decompose seasonality** \u2014 compare to Q1\u2013Q4 patterns in prior years to isolate the seasonal component\n2.",
+        "avg_bertscore": 0.326,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Identify what changed** \u2014 product launches, competitor moves, marketing spend, external events (tariffs, viral trends)...",
+        "avg_bertscore": 0.485,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Test causality** \u2014 the data shows correlation across four points; it cannot by itself tell us price *caused* higher sa...",
+        "avg_bertscore": 0.644,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      }
+    ]
+  },
+  "claude-opus-4.6_physics": {
+    "model": "claude-opus-4.6",
+    "scenario": "physics",
+    "n_claims": 9,
+    "n_passed_as_factual": 3,
+    "n_flagged_as_hallucination": 6,
+    "pass_rate": 0.333,
+    "claim_details": [
+      {
+        "claim": "The data presents a clear trend: as mass increases, measured acceleration increases \u2014 from 9.79 m/s\u00b2 for the lightest ob...",
+        "avg_bertscore": 0.977,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**The pattern is almost certainly driven by experimental error, not real physics.**\n\nThis needs to be stated clearly: th...",
+        "avg_bertscore": 0.664,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "In a vacuum (or with proper air resistance controls), all objects fall at the same rate regardless of mass.",
+        "avg_bertscore": 0.493,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This has been confirmed to extraordinary precision, from Newton's era to Apollo 15's hammer-and-feather demonstration to...",
+        "avg_bertscore": 0.538,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The accelerations reported for the heavier objects \u2014 12.1 and 14.7 m/s\u00b2 \u2014 are **not physically plausible** as gravitatio...",
+        "avg_bertscore": 0.559,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Nothing about increasing mass produces gravitational acceleration exceeding 9.81 m/s\u00b2.",
+        "avg_bertscore": 0.599,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Probable explanations include:\n\n- **Timing errors** \u2014 if using manual timing, shorter fall times for heavier objects (wh...",
+        "avg_bertscore": 0.627,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The steel ball reading of 9.79 m/s\u00b2 is consistent with expected values.",
+        "avg_bertscore": 0.651,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The progressive deviation in the heavier objects points to a systematic error that scales with mass.",
+        "avg_bertscore": 0.596,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      }
+    ]
+  },
+  "deepseek-r1_economics": {
+    "model": "deepseek-r1",
+    "scenario": "economics",
+    "n_claims": 22,
+    "n_passed_as_factual": 9,
+    "n_flagged_as_hallucination": 13,
+    "pass_rate": 0.409,
+    "claim_details": [
+      {
+        "claim": "The observed trend\u2014where **increasing prices correlate with rising unit sales**\u2014directly contradicts the expected invers...",
+        "avg_bertscore": 0.819,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This anomaly suggests that **strong external factors are overpowering the fundamental price-demand dynamic**.",
+        "avg_bertscore": 0.724,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Here's a breakdown of the drivers and potential explanations:\n\n\n- **Price Increase**: +$30/quarter (10% rise each quarte...",
+        "avg_bertscore": 0.719,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The law of demand states that higher prices should reduce sales, *ceteris paribus* (all else equal).",
+        "avg_bertscore": 0.566,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Here, \"all else\" is **not equal**.",
+        "avg_bertscore": 0.257,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "External forces are driving demand upward faster than price increases suppress it.",
+        "avg_bertscore": 0.688,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Product Innovation/Launch**:  \n   - A **new flagship product** (e.g., advanced smartphone, AI gadget) likely launched ...",
+        "avg_bertscore": 0.627,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Competitive Shifts**:  \n   - **Competitors' price hikes** may have been steeper, making this company's products appear...",
+        "avg_bertscore": 0.757,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Aggressive Marketing & Brand Hype**:  \n   - Successful **brand campaigns** (e.g., influencer partnerships, viral marke...",
+        "avg_bertscore": 0.735,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Macroeconomic Factors**:  \n   - A **surge in disposable income** (e.g., tax cuts, wage growth) reduced price sensitivi...",
+        "avg_bertscore": 0.636,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Seasonality & Product Lifecycle**:  \n   - **Q4 holiday demand** (74.2k units) amplified sales despite the highest pric...",
+        "avg_bertscore": 0.657,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Investigate Product/Launch Timing**:  \n   - Confirm if a new product debuted in Q1 2025.",
+        "avg_bertscore": 0.598,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "If so, its success justifies premium pricing.",
+        "avg_bertscore": 0.541,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Analyze Competitor Pricing**:  \n   - Compare competitors' price trajectories.",
+        "avg_bertscore": 0.682,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "If they outpaced this company\u2019s hikes, it explains relative demand growth.",
+        "avg_bertscore": 0.593,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Monitor Sustainability**:  \n   - This trend may not last.",
+        "avg_bertscore": 0.511,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Demand could collapse once innovation plateaus or competitors adjust.",
+        "avg_bertscore": 0.581,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Avoid Misinterpretation**:  \n   - **Do not assume higher prices *cause* higher demand**.",
+        "avg_bertscore": 0.668,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Reverse causation is unlikely\u2014external drivers are key.",
+        "avg_bertscore": 0.426,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The anomaly is driven by **exogenous factors like product innovation, competitive dynamics, and marketing\u2014not a breakdow...",
+        "avg_bertscore": 0.531,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The company should capitalize on this momentum but remain cautious: if these drivers fade, the traditional inverse relat...",
+        "avg_bertscore": 0.585,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Immediate action should focus on identifying the *specific* catalysts (e.g., new product launch, competitor exits) to re...",
+        "avg_bertscore": 0.479,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      }
+    ]
+  },
+  "deepseek-r1_physics": {
+    "model": "deepseek-r1",
+    "scenario": "physics",
+    "n_claims": 26,
+    "n_passed_as_factual": 6,
+    "n_flagged_as_hallucination": 20,
+    "pass_rate": 0.231,
+    "claim_details": [
+      {
+        "claim": "The provided data shows a clear trend: as the mass of the object increases, the measured acceleration also increases, wi...",
+        "avg_bertscore": 0.694,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This is inconsistent with the principles of Newtonian mechanics, which state that in a vacuum (or even in air with negli...",
+        "avg_bertscore": 0.682,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The observed accelerations exceeding 9.81 m/s\u00b2 for heavier objects are physically impossible in a standard free-fall sce...",
+        "avg_bertscore": 0.683,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Air resistance, if present, would reduce the acceleration, especially for lighter objects with larger surface-area-to-ma...",
+        "avg_bertscore": 0.674,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "However, the data shows the opposite: lighter objects have accelerations close to 9.81 m/s\u00b2 (e.g., steel ball at 9.79 m/...",
+        "avg_bertscore": 0.663,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This rules out air resistance as the primary factor, as it would cause reductions, not increases.",
+        "avg_bertscore": 0.571,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "An additional force must be acting in the downward direction to produce such values.",
+        "avg_bertscore": 0.442,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The most plausible explanation is that the experiment involved an **external force applied in addition to gravity**, lik...",
+        "avg_bertscore": 0.563,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Specifically, the data suggests that the objects were not in simple free fall but were part of a system where a **consta...",
+        "avg_bertscore": 0.572,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "For example:\n- If the objects were attached to a string or cable that was being pulled downward with a constant force \\(...",
+        "avg_bertscore": 0.539,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Thus, a constant force cannot explain the trend.",
+        "avg_bertscore": 0.491,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "A better fit to the data is an **additional force proportional to the mass** of the object.",
+        "avg_bertscore": 0.586,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "For instance:\n- If the additional force is \\( F = k \\cdot m \\) (where \\( k \\) is a constant with units of acceleration),...",
+        "avg_bertscore": 0.482,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "However, this is speculative without details of the setup.",
+        "avg_bertscore": 0.239,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Given the data, the most reasonable conclusion is that the **measurement system itself introduced a mass-dependent bias*...",
+        "avg_bertscore": 0.442,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "For example:\n- **Instrumentation artifact**: If the objects were attached to an accelerometer or sensor that added a non...",
+        "avg_bertscore": 0.572,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Heavier objects might cause more strain on the sensor, leading to higher readings.",
+        "avg_bertscore": 0.539,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "For instance:\n  - If the objects were resting on a platform that accelerated downward (e.g., a moving elevator or cart),...",
+        "avg_bertscore": 0.518,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "However, this would affect all objects equally, not proportionally to mass.",
+        "avg_bertscore": 0.532,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The observed trend of increasing acceleration with mass is **not driven by gravity or air resistance** but by an **exter...",
+        "avg_bertscore": 0.654,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The accelerations exceeding \\( g \\) imply that the objects were subject to additional downward forces, possibly due to:\n...",
+        "avg_bertscore": 0.645,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Non-free-fall conditions**: The experiment likely involved a mechanism (e.g., a driven pulley or propulsion) that adde...",
+        "avg_bertscore": 0.522,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Systematic measurement bias**: Heavier objects may have overloaded sensors or caused calibration drift, leading to inf...",
+        "avg_bertscore": 0.614,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Recommendation**: Review the lab setup to identify any unintended forces (e.g., from attached cables, sensors, or movi...",
+        "avg_bertscore": 0.449,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Repeat the experiment in a true free-fall configuration (e.g., drop objects without any attachments in a vacuum chamber)...",
+        "avg_bertscore": 0.536,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "If the trend persists, calibrate measurement tools for mass-dependent effects.",
+        "avg_bertscore": 0.498,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      }
+    ]
+  },
+  "gemini-3-pro_economics": {
+    "model": "gemini-3-pro",
+    "scenario": "economics",
+    "n_claims": 25,
+    "n_passed_as_factual": 14,
+    "n_flagged_as_hallucination": 11,
+    "pass_rate": 0.56,
+    "claim_details": [
+      {
+        "claim": "Based on the data provided and the background context, here is the analysis of the observed trend.",
+        "avg_bertscore": 0.883,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The data reveals a strong positive correlation between price and units sold, which directly contradicts the established ...",
+        "avg_bertscore": 0.63,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Q1 to Q2:** Price increased by $30 (+10%), yet sales *increased* by 16%.",
+        "avg_bertscore": 0.677,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Q2 to Q3:** Price increased by $30 (+9%), yet sales *increased* by 18%.",
+        "avg_bertscore": 0.661,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Q3 to Q4:** Price increased by $30 (+8%), yet sales *increased* by 20%.",
+        "avg_bertscore": 0.69,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**The Observation:** As prices rose steadily throughout the year, demand did not decrease; instead, it accelerated.",
+        "avg_bertscore": 0.68,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This is a classic violation of the Law of Demand (ceteris paribus), suggesting that \"all other things\" are *not* equal.",
+        "avg_bertscore": 0.502,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Since the inverse relationship (Price $\\uparrow$, Demand $\\downarrow$) is historically reliable for this segment, the ob...",
+        "avg_bertscore": 0.714,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The most likely drivers for this \"Veblen Good\" or \"Giffen Good\" style behavior in consumer electronics are:\n\n**A.",
+        "avg_bertscore": 0.493,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Seasonality (The Quarter Effect)**\nThe data progresses from Q1 through Q4.",
+        "avg_bertscore": 0.736,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "In consumer electronics, Q3 (Back to School) and Q4 (Holiday Season/Black Friday/Christmas) are traditionally high-volum...",
+        "avg_bertscore": 0.783,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The natural seasonal demand curve is so strong that it is masking the negative impact of the price hikes.",
+        "avg_bertscore": 0.656,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   *Hypothesis:* Without the price hikes, sales in Q4 might have been 90,000 units instead of 74,200.",
+        "avg_bertscore": 0.766,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "New Product Lifecycle / Feature Upgrades**\nThe steady price increase suggests the release of new, superior models or tie...",
+        "avg_bertscore": 0.669,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   *Scenario:* Q1 might represent an older model being phased out.",
+        "avg_bertscore": 0.59,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Q2, Q3, and Q4 could represent the staggered release of a \"Pro,\" \"Max,\" or \"Ultra\" version.",
+        "avg_bertscore": 0.603,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Consumers are paying more because the utility or perceived value of the product has changed.",
+        "avg_bertscore": 0.712,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Inflationary or Scarcity Panic**\nIf the market anticipates future supply chain shortages or hyper-inflation, consumers m...",
+        "avg_bertscore": 0.642,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   *Scenario:* If consumers believe the price will be $450 in 2026 due to chip shortages, they will buy now at $389, vi...",
+        "avg_bertscore": 0.614,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**What is driving this pattern?**\n\nThe most probable driver is **Seasonality paired with Product Mix shifts.**\n\nThe data...",
+        "avg_bertscore": 0.648,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Instead, it proves that the **demand curve shifted to the right** significantly enough to offset the movement along the ...",
+        "avg_bertscore": 0.669,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "**Strategic Warning:**\nDo not interpret this data as permission to raise prices indefinitely.",
+        "avg_bertscore": 0.611,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The historical inverse relationship likely still exists.",
+        "avg_bertscore": 0.372,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "You are currently observing a seasonal peak or a product launch cycle.",
+        "avg_bertscore": 0.547,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Once Q1 2026 hits and the seasonal pressure subsides, maintaining a $389 price point will likely result in a drastic dro...",
+        "avg_bertscore": 0.71,
+        "n_samples_supporting": 5,
+        "n_samples_total": 5,
+        "support_rate": 1.0,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      }
+    ]
+  },
+  "gemini-3-pro_physics": {
+    "model": "gemini-3-pro",
+    "scenario": "physics",
+    "n_claims": 29,
+    "n_passed_as_factual": 8,
+    "n_flagged_as_hallucination": 21,
+    "pass_rate": 0.276,
+    "claim_details": [
+      {
+        "claim": "Based on a review of the provided experimental data, there is a distinct and highly anomalous trend: **as the mass of th...",
+        "avg_bertscore": 0.723,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "In a standard free-fall experiment (even with air resistance), acceleration should either remain close to $9.81 \\, \\text...",
+        "avg_bertscore": 0.681,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "It should never increase above $g$ simply because the object is heavier.",
+        "avg_bertscore": 0.599,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Steel ball (0.5 kg):** $9.79 \\, \\text{m/s}^2$.",
+        "avg_bertscore": 0.746,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This is within the margin of experimental error for standard gravity ($9.81 \\, \\text{m/s}^2$).",
+        "avg_bertscore": 0.612,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Brass cylinder (2.3 kg):** $10.4 \\, \\text{m/s}^2$.",
+        "avg_bertscore": 0.559,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This is noticeably higher than standard gravity.",
+        "avg_bertscore": 0.597,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Lead block (8.1 kg):** $12.1 \\, \\text{m/s}^2$.",
+        "avg_bertscore": 0.573,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This is a significant deviation (+23%).",
+        "avg_bertscore": 0.38,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Iron weight (15.0 kg):** $14.7 \\, \\text{m/s}^2$.",
+        "avg_bertscore": 0.732,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "This is a massive deviation (+50%).",
+        "avg_bertscore": 0.367,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Since the laws of physics regarding gravity have not changed, the driver of this pattern is almost certainly **experimen...",
+        "avg_bertscore": 0.66,
+        "n_samples_supporting": 4,
+        "n_samples_total": 5,
+        "support_rate": 0.8,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Here are the most likely physical explanations for this specific data pattern ($a > g$ and $a \\propto m$):\n\n**1.",
+        "avg_bertscore": 0.397,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The Atwood Machine Error (Counterweight Issue)**\nThis is the most probable scenario in a university lab setting.",
+        "avg_bertscore": 0.576,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "If the students were using an Atwood machine (a pulley system with two masses) rather than simple free-fall, the acceler...",
+        "avg_bertscore": 0.661,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "If the \"falling\" object is significantly heavier than the counterweight, the acceleration approaches $g$.",
+        "avg_bertscore": 0.647,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "However, if the students were *pulling* the weight down or if the setup involved a motorized component that applied a fo...",
+        "avg_bertscore": 0.6,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Electromagnetic Interference**\nIf the experiment utilized electromagnetic timing gates or a release mechanism involving ...",
+        "avg_bertscore": 0.503,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   *Note:* Brass and Lead are generally non-magnetic, but if the \"Brass\" was actually a plated magnetic alloy or if the...",
+        "avg_bertscore": 0.442,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "However, the Iron and Steel would be most affected, which aligns with the trend (Iron has the highest acceleration).",
+        "avg_bertscore": 0.523,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Measurement/Calibration Systematic Error**\nThe timing mechanism may be calibrated incorrectly in a way that correlates w...",
+        "avg_bertscore": 0.664,
+        "n_samples_supporting": 3,
+        "n_samples_total": 5,
+        "support_rate": 0.6,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "*   **Trigger sensitivity:** Heavier objects create larger vibrations or louder distinct sounds upon impact.",
+        "avg_bertscore": 0.489,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "If the \"stop\" timer is acoustic or vibration-based, heavier objects might trigger the stop signal slightly *earlier* (du...",
+        "avg_bertscore": 0.529,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Non-Inertial Reference Frame**\nIf the entire laboratory apparatus were accelerating downward (e.g., inside a descending ...",
+        "avg_bertscore": 0.539,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "If the apparatus were accelerating *upward*, the apparent gravity would be higher.",
+        "avg_bertscore": 0.539,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "However, this would result in a constant higher acceleration for all masses, not a scaling one.",
+        "avg_bertscore": 0.57,
+        "n_samples_supporting": 1,
+        "n_samples_total": 5,
+        "support_rate": 0.2,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "Therefore, this is unlikely unless the apparatus itself shakes or recoils more violently with heavier weights.",
+        "avg_bertscore": 0.455,
+        "n_samples_supporting": 0,
+        "n_samples_total": 5,
+        "support_rate": 0.0,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The data is **invalid** for demonstrating the universality of free-fall.",
+        "avg_bertscore": 0.656,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_FACTUAL",
+        "pph_ground_truth": "UNKNOWN"
+      },
+      {
+        "claim": "The strong correlation between mass and acceleration ($a > g$) indicates a systematic flaw in the experimental design, l...",
+        "avg_bertscore": 0.638,
+        "n_samples_supporting": 2,
+        "n_samples_total": 5,
+        "support_rate": 0.4,
+        "selfcheckgpt_verdict": "LIKELY_HALLUCINATION",
+        "pph_ground_truth": "UNKNOWN"
+      }
+    ]
+  }
+}

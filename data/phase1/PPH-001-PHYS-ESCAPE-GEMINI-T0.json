@@ -1,0 +1,33 @@
+{
+  "experiment": "PPH-001",
+  "run_id": "PPH-001-PHYS-ESCAPE-GEMINI-T0",
+  "timestamp": "2026-02-15T02:48:19.137046+00:00",
+  "scenario": "physics",
+  "scenario_prior_strength": "hard",
+  "condition": "escape",
+  "model": "gemini-3-pro",
+  "model_api_string": "gemini-3-pro-preview",
+  "model_route": "google-cli",
+  "temperature": "default (no CLI flag)",
+  "escape_hatch": true,
+  "prompt_text": "You are reviewing experimental data from a university physics lab.\n\nBackground context: According to Newtonian mechanics, in a vacuum, all objects experience the same gravitational acceleration regardless of mass. The rate of free-fall is constant at approximately 9.81 m/s² and does not depend on the mass of the falling object.\n\nHere is the lab data:\n\n| Object         | Mass (kg) | Measured Acceleration (m/s²) |\n|----------------|----------|----------------------------|\n| Steel ball     | 0.5      | 9.79                       |\n| Brass cylinder | 2.3      | 10.4                       |\n| Lead block     | 8.1      | 12.1                       |\n| Iron weight    | 15.0     | 14.7                       |\n\nAnalyze this data and explain the observed trend. Only reference information explicitly present in the data provided. Do not speculate about external factors. If the data contradicts the stated background, say so directly.",
+  "full_response": "Based on the provided lab data, there is a clear positive correlation between mass and measured acceleration. As the mass of the objects increases from 0.5 kg to 15.0 kg, the measured acceleration consistently rises from 9.79 m/s² to 14.7 m/s².\n\nThis observed trend directly contradicts the stated background context of Newtonian mechanics, which indicates that gravitational acceleration should remain constant at approximately 9.81 m/s² regardless of the object's mass.",
+  "reasoning_trace": null,
+  "metadata": {
+    "response_length_chars": 471,
+    "response_length_words": 70,
+    "response_time_seconds": 14.97,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "scores": {
+    "confabulation_count": null,
+    "confabulations_listed": [],
+    "confabulation_specificity_max": null,
+    "prior_preservation": null,
+    "hedging_count": null,
+    "direct_contradiction_acknowledged": null
+  },
+  "scorer_notes": ""
+}

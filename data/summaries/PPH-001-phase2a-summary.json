@@ -1,0 +1,1092 @@
+{
+  "experiment": "PPH-001",
+  "phase": "2a-stochastic",
+  "completed": "2026-02-18T04:47:53.283158+00:00",
+  "temperature": 0.7,
+  "runs_per_combo": 20,
+  "total_runs": 120,
+  "successful": 120,
+  "failed": 0,
+  "runs": [
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-01",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 1,
+      "status": "OK",
+      "words": 344,
+      "time_s": 1.83
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-02",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 2,
+      "status": "OK",
+      "words": 373,
+      "time_s": 1.12
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-03",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 3,
+      "status": "OK",
+      "words": 329,
+      "time_s": 1.89
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-04",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 4,
+      "status": "OK",
+      "words": 319,
+      "time_s": 1.92
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-05",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 5,
+      "status": "OK",
+      "words": 324,
+      "time_s": 1.22
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-06",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 6,
+      "status": "OK",
+      "words": 302,
+      "time_s": 1.25
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-07",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 7,
+      "status": "OK",
+      "words": 335,
+      "time_s": 1.17
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-08",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 8,
+      "status": "OK",
+      "words": 371,
+      "time_s": 0.95
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-09",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 9,
+      "status": "OK",
+      "words": 321,
+      "time_s": 2.35
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-10",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 10,
+      "status": "OK",
+      "words": 377,
+      "time_s": 1.37
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-11",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 11,
+      "status": "OK",
+      "words": 291,
+      "time_s": 1.19
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-12",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 12,
+      "status": "OK",
+      "words": 349,
+      "time_s": 2.08
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-13",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 13,
+      "status": "OK",
+      "words": 389,
+      "time_s": 2.23
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-14",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 14,
+      "status": "OK",
+      "words": 364,
+      "time_s": 2.01
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-15",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 15,
+      "status": "OK",
+      "words": 367,
+      "time_s": 1.98
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-16",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 16,
+      "status": "OK",
+      "words": 339,
+      "time_s": 1.02
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-17",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 17,
+      "status": "OK",
+      "words": 323,
+      "time_s": 1.42
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-18",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 18,
+      "status": "OK",
+      "words": 340,
+      "time_s": 1.91
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-19",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 19,
+      "status": "OK",
+      "words": 355,
+      "time_s": 1.12
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T07-STOCH-20",
+      "scenario": "PHYS",
+      "model": "CLAUDE",
+      "run_number": 20,
+      "status": "OK",
+      "words": 352,
+      "time_s": 2.2
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-01",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 1,
+      "status": "OK",
+      "words": 620,
+      "time_s": 3.08
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-02",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 2,
+      "status": "OK",
+      "words": 509,
+      "time_s": 3.59
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-03",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 3,
+      "status": "OK",
+      "words": 532,
+      "time_s": 4.03
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-04",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 4,
+      "status": "OK",
+      "words": 503,
+      "time_s": 3.75
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-05",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 5,
+      "status": "OK",
+      "words": 681,
+      "time_s": 5.43
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-06",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 6,
+      "status": "OK",
+      "words": 570,
+      "time_s": 3.09
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-07",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 7,
+      "status": "OK",
+      "words": 531,
+      "time_s": 3.24
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-08",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 8,
+      "status": "OK",
+      "words": 689,
+      "time_s": 4.03
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-09",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 9,
+      "status": "OK",
+      "words": 394,
+      "time_s": 3.23
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-10",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 10,
+      "status": "OK",
+      "words": 571,
+      "time_s": 9.6
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-11",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 11,
+      "status": "OK",
+      "words": 439,
+      "time_s": 4.79
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-12",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 12,
+      "status": "OK",
+      "words": 690,
+      "time_s": 3.66
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-13",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 13,
+      "status": "OK",
+      "words": 470,
+      "time_s": 3.48
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-14",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 14,
+      "status": "OK",
+      "words": 744,
+      "time_s": 3.1
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-15",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 15,
+      "status": "OK",
+      "words": 470,
+      "time_s": 3.91
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-16",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 16,
+      "status": "OK",
+      "words": 503,
+      "time_s": 3.3
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-17",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 17,
+      "status": "OK",
+      "words": 548,
+      "time_s": 3.4
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-18",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 18,
+      "status": "OK",
+      "words": 550,
+      "time_s": 10.6
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-19",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 19,
+      "status": "OK",
+      "words": 467,
+      "time_s": 3.8
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T07-STOCH-20",
+      "scenario": "PHYS",
+      "model": "GEMINI",
+      "run_number": 20,
+      "status": "OK",
+      "words": 503,
+      "time_s": 3.32
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-01",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 1,
+      "status": "OK",
+      "words": 821,
+      "time_s": 1.87
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-02",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 2,
+      "status": "OK",
+      "words": 529,
+      "time_s": 1.41
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-03",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 3,
+      "status": "OK",
+      "words": 638,
+      "time_s": 1.94
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-04",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 4,
+      "status": "OK",
+      "words": 1002,
+      "time_s": 1.78
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-05",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 5,
+      "status": "OK",
+      "words": 705,
+      "time_s": 1.66
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-06",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 6,
+      "status": "OK",
+      "words": 435,
+      "time_s": 2.22
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-07",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 7,
+      "status": "OK",
+      "words": 597,
+      "time_s": 1.62
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-08",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 8,
+      "status": "OK",
+      "words": 737,
+      "time_s": 1.89
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-09",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 9,
+      "status": "OK",
+      "words": 704,
+      "time_s": 1.3
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-10",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 10,
+      "status": "OK",
+      "words": 635,
+      "time_s": 1.7
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-11",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 11,
+      "status": "OK",
+      "words": 671,
+      "time_s": 1.73
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-12",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 12,
+      "status": "OK",
+      "words": 626,
+      "time_s": 1.27
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-13",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 13,
+      "status": "OK",
+      "words": 1084,
+      "time_s": 1.47
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-14",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 14,
+      "status": "OK",
+      "words": 876,
+      "time_s": 1.7
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-15",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 15,
+      "status": "OK",
+      "words": 498,
+      "time_s": 1.77
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-16",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 16,
+      "status": "OK",
+      "words": 293,
+      "time_s": 1.19
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-17",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 17,
+      "status": "OK",
+      "words": 608,
+      "time_s": 2.22
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-18",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 18,
+      "status": "OK",
+      "words": 716,
+      "time_s": 1.4
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-19",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 19,
+      "status": "OK",
+      "words": 853,
+      "time_s": 1.66
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-DEEPSEEK-T07-STOCH-20",
+      "scenario": "PHYS",
+      "model": "DEEPSEEK",
+      "run_number": 20,
+      "status": "OK",
+      "words": 1029,
+      "time_s": 1.64
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-01",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 1,
+      "status": "OK",
+      "words": 412,
+      "time_s": 2.1
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-02",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 2,
+      "status": "OK",
+      "words": 491,
+      "time_s": 1.26
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-03",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 3,
+      "status": "OK",
+      "words": 408,
+      "time_s": 1.13
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-04",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 4,
+      "status": "OK",
+      "words": 399,
+      "time_s": 1.49
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-05",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 5,
+      "status": "OK",
+      "words": 385,
+      "time_s": 1.95
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-06",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 6,
+      "status": "OK",
+      "words": 356,
+      "time_s": 0.95
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-07",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 7,
+      "status": "OK",
+      "words": 283,
+      "time_s": 1.71
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-08",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 8,
+      "status": "OK",
+      "words": 451,
+      "time_s": 1.92
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-09",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 9,
+      "status": "OK",
+      "words": 409,
+      "time_s": 2.65
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-10",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 10,
+      "status": "OK",
+      "words": 478,
+      "time_s": 1.54
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-11",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 11,
+      "status": "OK",
+      "words": 372,
+      "time_s": 1.81
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-12",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 12,
+      "status": "OK",
+      "words": 407,
+      "time_s": 1.08
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-13",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 13,
+      "status": "OK",
+      "words": 456,
+      "time_s": 1.18
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-14",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 14,
+      "status": "OK",
+      "words": 409,
+      "time_s": 0.77
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-15",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 15,
+      "status": "OK",
+      "words": 375,
+      "time_s": 1.73
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-16",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 16,
+      "status": "OK",
+      "words": 387,
+      "time_s": 1.95
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-17",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 17,
+      "status": "OK",
+      "words": 395,
+      "time_s": 1.08
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-18",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 18,
+      "status": "OK",
+      "words": 339,
+      "time_s": 1.62
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-19",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 19,
+      "status": "OK",
+      "words": 386,
+      "time_s": 2.3
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T07-STOCH-20",
+      "scenario": "ECON",
+      "model": "CLAUDE",
+      "run_number": 20,
+      "status": "OK",
+      "words": 410,
+      "time_s": 2.75
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-01",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 1,
+      "status": "OK",
+      "words": 474,
+      "time_s": 3.6
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-02",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 2,
+      "status": "OK",
+      "words": 510,
+      "time_s": 3.62
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-03",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 3,
+      "status": "OK",
+      "words": 545,
+      "time_s": 3.22
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-04",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 4,
+      "status": "OK",
+      "words": 466,
+      "time_s": 4.27
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-05",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 5,
+      "status": "OK",
+      "words": 505,
+      "time_s": 3.39
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-06",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 6,
+      "status": "OK",
+      "words": 513,
+      "time_s": 2.93
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-07",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 7,
+      "status": "OK",
+      "words": 520,
+      "time_s": 3.52
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-08",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 8,
+      "status": "OK",
+      "words": 463,
+      "time_s": 3.49
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-09",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 9,
+      "status": "OK",
+      "words": 515,
+      "time_s": 3.13
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-10",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 10,
+      "status": "OK",
+      "words": 497,
+      "time_s": 3.55
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-11",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 11,
+      "status": "OK",
+      "words": 505,
+      "time_s": 3.43
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-12",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 12,
+      "status": "OK",
+      "words": 432,
+      "time_s": 3.71
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-13",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 13,
+      "status": "OK",
+      "words": 478,
+      "time_s": 3.36
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-14",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 14,
+      "status": "OK",
+      "words": 447,
+      "time_s": 5.52
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-15",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 15,
+      "status": "OK",
+      "words": 314,
+      "time_s": 3.77
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-16",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 16,
+      "status": "OK",
+      "words": 565,
+      "time_s": 3.34
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-17",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 17,
+      "status": "OK",
+      "words": 460,
+      "time_s": 4.43
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-18",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 18,
+      "status": "OK",
+      "words": 463,
+      "time_s": 3.4
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-19",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 19,
+      "status": "OK",
+      "words": 551,
+      "time_s": 3.59
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T07-STOCH-20",
+      "scenario": "ECON",
+      "model": "GEMINI",
+      "run_number": 20,
+      "status": "OK",
+      "words": 452,
+      "time_s": 3.97
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-01",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 1,
+      "status": "OK",
+      "words": 501,
+      "time_s": 1.4
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-02",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 2,
+      "status": "OK",
+      "words": 619,
+      "time_s": 1.7
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-03",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 3,
+      "status": "OK",
+      "words": 592,
+      "time_s": 1.62
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-04",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 4,
+      "status": "OK",
+      "words": 339,
+      "time_s": 1.11
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-05",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 5,
+      "status": "OK",
+      "words": 579,
+      "time_s": 1.33
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-06",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 6,
+      "status": "OK",
+      "words": 708,
+      "time_s": 1.47
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-07",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 7,
+      "status": "OK",
+      "words": 422,
+      "time_s": 1.05
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-08",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 8,
+      "status": "OK",
+      "words": 581,
+      "time_s": 1.31
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-09",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 9,
+      "status": "OK",
+      "words": 565,
+      "time_s": 1.5
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-10",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 10,
+      "status": "OK",
+      "words": 661,
+      "time_s": 1.06
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-11",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 11,
+      "status": "OK",
+      "words": 522,
+      "time_s": 1.34
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-12",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 12,
+      "status": "OK",
+      "words": 655,
+      "time_s": 1.43
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-13",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 13,
+      "status": "OK",
+      "words": 637,
+      "time_s": 1.2
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-14",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 14,
+      "status": "OK",
+      "words": 491,
+      "time_s": 1.73
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-15",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 15,
+      "status": "OK",
+      "words": 807,
+      "time_s": 1.17
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-16",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 16,
+      "status": "OK",
+      "words": 768,
+      "time_s": 1.25
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-17",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 17,
+      "status": "OK",
+      "words": 477,
+      "time_s": 1.4
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-18",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 18,
+      "status": "OK",
+      "words": 616,
+      "time_s": 1.16
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-19",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 19,
+      "status": "OK",
+      "words": 494,
+      "time_s": 1.3
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-DEEPSEEK-T07-STOCH-20",
+      "scenario": "ECON",
+      "model": "DEEPSEEK",
+      "run_number": 20,
+      "status": "OK",
+      "words": 605,
+      "time_s": 1.46
+    }
+  ]
+}

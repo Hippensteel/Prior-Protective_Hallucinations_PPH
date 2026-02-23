@@ -1,0 +1,119 @@
+{
+  "experiment": "PPH-001",
+  "phase": "2b-escape-specificity",
+  "completed": "2026-02-18T02:54:35.857315+00:00",
+  "temperature": 0.0,
+  "total_runs": 12,
+  "successful": 12,
+  "failed": 0,
+  "runs": [
+    {
+      "run_id": "PPH-001-FICTIONAL-BASE-CLAUDE-T0-phase2b",
+      "prompt_type": "fictional_entity",
+      "escape_hatch": false,
+      "model": "CLAUDE",
+      "status": "OK",
+      "words": 240,
+      "time_s": 2.08
+    },
+    {
+      "run_id": "PPH-001-FICTIONAL-BASE-GEMINI-T0-phase2b",
+      "prompt_type": "fictional_entity",
+      "escape_hatch": false,
+      "model": "GEMINI",
+      "status": "OK",
+      "words": 150,
+      "time_s": 4.25
+    },
+    {
+      "run_id": "PPH-001-FICTIONAL-BASE-DEEPSEEK-T0-phase2b",
+      "prompt_type": "fictional_entity",
+      "escape_hatch": false,
+      "model": "DEEPSEEK",
+      "status": "OK",
+      "words": 664,
+      "time_s": 1.53
+    },
+    {
+      "run_id": "PPH-001-FICTIONAL-ESCAPE-CLAUDE-T0-phase2b",
+      "prompt_type": "fictional_entity",
+      "escape_hatch": true,
+      "model": "CLAUDE",
+      "status": "OK",
+      "words": 203,
+      "time_s": 2.37
+    },
+    {
+      "run_id": "PPH-001-FICTIONAL-ESCAPE-GEMINI-T0-phase2b",
+      "prompt_type": "fictional_entity",
+      "escape_hatch": true,
+      "model": "GEMINI",
+      "status": "OK",
+      "words": 84,
+      "time_s": 10.34
+    },
+    {
+      "run_id": "PPH-001-FICTIONAL-ESCAPE-DEEPSEEK-T0-phase2b",
+      "prompt_type": "fictional_entity",
+      "escape_hatch": true,
+      "model": "DEEPSEEK",
+      "status": "OK",
+      "words": 163,
+      "time_s": 1.75
+    },
+    {
+      "run_id": "PPH-001-OVERSPEC-BASE-CLAUDE-T0-phase2b",
+      "prompt_type": "overspecific_real",
+      "escape_hatch": false,
+      "model": "CLAUDE",
+      "status": "OK",
+      "words": 278,
+      "time_s": 2.09
+    },
+    {
+      "run_id": "PPH-001-OVERSPEC-BASE-GEMINI-T0-phase2b",
+      "prompt_type": "overspecific_real",
+      "escape_hatch": false,
+      "model": "GEMINI",
+      "status": "OK",
+      "words": 636,
+      "time_s": 3.82
+    },
+    {
+      "run_id": "PPH-001-OVERSPEC-BASE-DEEPSEEK-T0-phase2b",
+      "prompt_type": "overspecific_real",
+      "escape_hatch": false,
+      "model": "DEEPSEEK",
+      "status": "OK",
+      "words": 702,
+      "time_s": 1.56
+    },
+    {
+      "run_id": "PPH-001-OVERSPEC-ESCAPE-CLAUDE-T0-phase2b",
+      "prompt_type": "overspecific_real",
+      "escape_hatch": true,
+      "model": "CLAUDE",
+      "status": "OK",
+      "words": 243,
+      "time_s": 0.97
+    },
+    {
+      "run_id": "PPH-001-OVERSPEC-ESCAPE-GEMINI-T0-phase2b",
+      "prompt_type": "overspecific_real",
+      "escape_hatch": true,
+      "model": "GEMINI",
+      "status": "OK",
+      "words": 59,
+      "time_s": 3.2
+    },
+    {
+      "run_id": "PPH-001-OVERSPEC-ESCAPE-DEEPSEEK-T0-phase2b",
+      "prompt_type": "overspecific_real",
+      "escape_hatch": true,
+      "model": "DEEPSEEK",
+      "status": "OK",
+      "words": 243,
+      "time_s": 1.49
+    }
+  ]
+}

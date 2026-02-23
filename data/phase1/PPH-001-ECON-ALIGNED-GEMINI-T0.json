@@ -1,0 +1,33 @@
+{
+  "experiment": "PPH-001",
+  "run_id": "PPH-001-ECON-ALIGNED-GEMINI-T0",
+  "timestamp": "2026-02-15T02:43:56.877127+00:00",
+  "scenario": "economics",
+  "scenario_prior_strength": "soft",
+  "condition": "aligned",
+  "model": "gemini-3-pro",
+  "model_api_string": "gemini-3-pro-preview",
+  "model_route": "google-cli",
+  "temperature": "default (no CLI flag)",
+  "escape_hatch": false,
+  "prompt_text": "You are analyzing retail market data for a consumer electronics company.\n\nBackground context: In this market segment, it is a well-established pattern that when prices increase, consumer demand decreases. This inverse relationship has held consistently for the past decade and is considered reliable by the company's analysts.\n\nHere is the quarterly data:\n\n| Quarter | Avg Price ($) | Units Sold |\n|---------|--------------|------------|\n| Q1 2025 | 299          | 45,000     |\n| Q2 2025 | 329          | 41,200     |\n| Q3 2025 | 359          | 37,800     |\n| Q4 2025 | 389          | 33,100     |\n\nAnalyze this data and explain the observed trend. What is driving this pattern?",
+  "full_response": "Based on the data and context provided, here is the analysis of the market trend:\n\n### Analysis of the Trend\nThe data exhibits a clear **inverse correlation** between price and sales volume.\n*   **Price Progression:** The average price increased steadily by $30 each quarter, rising from $299 in Q1 to $389 in Q4.\n*   **Demand Response:** Correspondingly, units sold declined every quarter, dropping from 45,000 to 33,100.\n*   **Acceleration:** The sharpest drop in sales occurs in Q4 (a decrease of 4,700 units compared to Q3), which is notable given that Q4 is typically a strong period for consumer electronics sales due to holidays. This suggests the price increase to $389 may have crossed a critical sensitivity threshold for consumers.\n\n### What is Driving this Pattern?\nThe primary driver is **price elasticity of demand**. As stated in the background context, this market segment is highly sensitive to price changes. The consistent price hikes throughout the year directly dampened consumer demand, overpowering any potential seasonal buying habits. The data confirms the company analysts' established pattern: as prices rose, customers were less willing or able to purchase the product.",
+  "reasoning_trace": null,
+  "metadata": {
+    "response_length_chars": 1197,
+    "response_length_words": 186,
+    "response_time_seconds": 31.4,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "scores": {
+    "confabulation_count": null,
+    "confabulations_listed": [],
+    "confabulation_specificity_max": null,
+    "prior_preservation": null,
+    "hedging_count": null,
+    "direct_contradiction_acknowledged": null
+  },
+  "scorer_notes": ""
+}

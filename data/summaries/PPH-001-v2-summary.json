@@ -1,0 +1,106 @@
+{
+  "experiment": "PPH-001",
+  "phase": "1-rerun",
+  "completed": "2026-02-15T18:29:11.564582+00:00",
+  "total_runs": 12,
+  "successful": 12,
+  "failed": 0,
+  "runs": [
+    {
+      "run_id": "PPH-001-ECON-ALIGNED-CLAUDE-T0-v2",
+      "status": "OK",
+      "response_words": 359,
+      "response_time_seconds": 14.18,
+      "reasoning_tokens": 0,
+      "model_returned": "anthropic/claude-opus-4.6"
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-CLAUDE-T0-v2",
+      "status": "OK",
+      "response_words": 392,
+      "response_time_seconds": 16.14,
+      "reasoning_tokens": 0,
+      "model_returned": "anthropic/claude-opus-4.6"
+    },
+    {
+      "run_id": "PPH-001-ECON-ESCAPE-CLAUDE-T0-v2",
+      "status": "OK",
+      "response_words": 297,
+      "response_time_seconds": 11.32,
+      "reasoning_tokens": 0,
+      "model_returned": "anthropic/claude-opus-4.6"
+    },
+    {
+      "run_id": "PPH-001-PHYS-ALIGNED-CLAUDE-T0-v2",
+      "status": "OK",
+      "response_words": 319,
+      "response_time_seconds": 12.96,
+      "reasoning_tokens": 0,
+      "model_returned": "anthropic/claude-opus-4.6"
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-CLAUDE-T0-v2",
+      "status": "OK",
+      "response_words": 295,
+      "response_time_seconds": 13.76,
+      "reasoning_tokens": 0,
+      "model_returned": "anthropic/claude-opus-4.6"
+    },
+    {
+      "run_id": "PPH-001-PHYS-ESCAPE-CLAUDE-T0-v2",
+      "status": "OK",
+      "response_words": 221,
+      "response_time_seconds": 9.59,
+      "reasoning_tokens": 0,
+      "model_returned": "anthropic/claude-opus-4.6"
+    },
+    {
+      "run_id": "PPH-001-ECON-ALIGNED-GEMINI-T0-v2",
+      "status": "OK",
+      "response_words": 306,
+      "response_time_seconds": 7.94,
+      "reasoning_tokens": 0,
+      "model_returned": "google/gemini-3-pro-preview"
+    },
+    {
+      "run_id": "PPH-001-ECON-SEVERE-GEMINI-T0-v2",
+      "status": "OK",
+      "response_words": 461,
+      "response_time_seconds": 9.79,
+      "reasoning_tokens": 0,
+      "model_returned": "google/gemini-3-pro-preview"
+    },
+    {
+      "run_id": "PPH-001-ECON-ESCAPE-GEMINI-T0-v2",
+      "status": "OK",
+      "response_words": 110,
+      "response_time_seconds": 4.77,
+      "reasoning_tokens": 0,
+      "model_returned": "google/gemini-3-pro-preview"
+    },
+    {
+      "run_id": "PPH-001-PHYS-ALIGNED-GEMINI-T0-v2",
+      "status": "OK",
+      "response_words": 352,
+      "response_time_seconds": 7.93,
+      "reasoning_tokens": 0,
+      "model_returned": "google/gemini-3-pro-preview"
+    },
+    {
+      "run_id": "PPH-001-PHYS-SEVERE-GEMINI-T0-v2",
+      "status": "OK",
+      "response_words": 799,
+      "response_time_seconds": 16.6,
+      "reasoning_tokens": 0,
+      "model_returned": "google/gemini-3-pro-preview"
+    },
+    {
+      "run_id": "PPH-001-PHYS-ESCAPE-GEMINI-T0-v2",
+      "status": "OK",
+      "response_words": 145,
+      "response_time_seconds": 5.33,
+      "reasoning_tokens": 0,
+      "model_returned": "google/gemini-3-pro-preview"
+    }
+  ]
+}

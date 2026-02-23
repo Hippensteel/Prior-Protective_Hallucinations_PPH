@@ -1,0 +1,282 @@
+{
+  "0.50": {
+    "threshold": 0.5,
+    "groups": {
+      "claude-opus-4.6_economics": {
+        "n_factual": 11,
+        "n_claims": 15,
+        "pass_rate": 0.733
+      },
+      "claude-opus-4.6_physics": {
+        "n_factual": 9,
+        "n_claims": 9,
+        "pass_rate": 1.0
+      },
+      "deepseek-r1_economics": {
+        "n_factual": 18,
+        "n_claims": 22,
+        "pass_rate": 0.818
+      },
+      "deepseek-r1_physics": {
+        "n_factual": 21,
+        "n_claims": 26,
+        "pass_rate": 0.808
+      },
+      "gemini-3-pro_economics": {
+        "n_factual": 23,
+        "n_claims": 25,
+        "pass_rate": 0.92
+      },
+      "gemini-3-pro_physics": {
+        "n_factual": 23,
+        "n_claims": 29,
+        "pass_rate": 0.793
+      }
+    },
+    "overall": {
+      "n_factual": 105,
+      "n_claims": 126,
+      "pass_rate": 0.833
+    }
+  },
+  "0.55": {
+    "threshold": 0.55,
+    "groups": {
+      "claude-opus-4.6_economics": {
+        "n_factual": 9,
+        "n_claims": 15,
+        "pass_rate": 0.6
+      },
+      "claude-opus-4.6_physics": {
+        "n_factual": 9,
+        "n_claims": 9,
+        "pass_rate": 1.0
+      },
+      "deepseek-r1_economics": {
+        "n_factual": 16,
+        "n_claims": 22,
+        "pass_rate": 0.727
+      },
+      "deepseek-r1_physics": {
+        "n_factual": 15,
+        "n_claims": 26,
+        "pass_rate": 0.577
+      },
+      "gemini-3-pro_economics": {
+        "n_factual": 22,
+        "n_claims": 25,
+        "pass_rate": 0.88
+      },
+      "gemini-3-pro_physics": {
+        "n_factual": 18,
+        "n_claims": 29,
+        "pass_rate": 0.621
+      }
+    },
+    "overall": {
+      "n_factual": 89,
+      "n_claims": 126,
+      "pass_rate": 0.706
+    }
+  },
+  "0.60": {
+    "threshold": 0.6,
+    "groups": {
+      "claude-opus-4.6_economics": {
+        "n_factual": 8,
+        "n_claims": 15,
+        "pass_rate": 0.533
+      },
+      "claude-opus-4.6_physics": {
+        "n_factual": 6,
+        "n_claims": 9,
+        "pass_rate": 0.667
+      },
+      "deepseek-r1_economics": {
+        "n_factual": 12,
+        "n_claims": 22,
+        "pass_rate": 0.545
+      },
+      "deepseek-r1_physics": {
+        "n_factual": 8,
+        "n_claims": 26,
+        "pass_rate": 0.308
+      },
+      "gemini-3-pro_economics": {
+        "n_factual": 18,
+        "n_claims": 25,
+        "pass_rate": 0.72
+      },
+      "gemini-3-pro_physics": {
+        "n_factual": 10,
+        "n_claims": 29,
+        "pass_rate": 0.345
+      }
+    },
+    "overall": {
+      "n_factual": 62,
+      "n_claims": 126,
+      "pass_rate": 0.492
+    }
+  },
+  "0.65": {
+    "threshold": 0.65,
+    "groups": {
+      "claude-opus-4.6_economics": {
+        "n_factual": 5,
+        "n_claims": 15,
+        "pass_rate": 0.333
+      },
+      "claude-opus-4.6_physics": {
+        "n_factual": 3,
+        "n_claims": 9,
+        "pass_rate": 0.333
+      },
+      "deepseek-r1_economics": {
+        "n_factual": 9,
+        "n_claims": 22,
+        "pass_rate": 0.409
+      },
+      "deepseek-r1_physics": {
+        "n_factual": 6,
+        "n_claims": 26,
+        "pass_rate": 0.231
+      },
+      "gemini-3-pro_economics": {
+        "n_factual": 15,
+        "n_claims": 25,
+        "pass_rate": 0.6
+      },
+      "gemini-3-pro_physics": {
+        "n_factual": 8,
+        "n_claims": 29,
+        "pass_rate": 0.276
+      }
+    },
+    "overall": {
+      "n_factual": 46,
+      "n_claims": 126,
+      "pass_rate": 0.365
+    }
+  },
+  "0.70": {
+    "threshold": 0.7,
+    "groups": {
+      "claude-opus-4.6_economics": {
+        "n_factual": 3,
+        "n_claims": 15,
+        "pass_rate": 0.2
+      },
+      "claude-opus-4.6_physics": {
+        "n_factual": 1,
+        "n_claims": 9,
+        "pass_rate": 0.111
+      },
+      "deepseek-r1_economics": {
+        "n_factual": 3,
+        "n_claims": 22,
+        "pass_rate": 0.136
+      },
+      "deepseek-r1_physics": {
+        "n_factual": 1,
+        "n_claims": 26,
+        "pass_rate": 0.038
+      },
+      "gemini-3-pro_economics": {
+        "n_factual": 6,
+        "n_claims": 25,
+        "pass_rate": 0.24
+      },
+      "gemini-3-pro_physics": {
+        "n_factual": 2,
+        "n_claims": 29,
+        "pass_rate": 0.069
+      }
+    },
+    "overall": {
+      "n_factual": 16,
+      "n_claims": 126,
+      "pass_rate": 0.127
+    }
+  },
+  "0.75": {
+    "threshold": 0.75,
+    "groups": {
+      "claude-opus-4.6_economics": {
+        "n_factual": 2,
+        "n_claims": 15,
+        "pass_rate": 0.133
+      },
+      "claude-opus-4.6_physics": {
+        "n_factual": 1,
+        "n_claims": 9,
+        "pass_rate": 0.111
+      },
+      "deepseek-r1_economics": {
+        "n_factual": 1,
+        "n_claims": 22,
+        "pass_rate": 0.045
+      },
+      "deepseek-r1_physics": {
+        "n_factual": 0,
+        "n_claims": 26,
+        "pass_rate": 0.0
+      },
+      "gemini-3-pro_economics": {
+        "n_factual": 2,
+        "n_claims": 25,
+        "pass_rate": 0.08
+      },
+      "gemini-3-pro_physics": {
+        "n_factual": 1,
+        "n_claims": 29,
+        "pass_rate": 0.034
+      }
+    },
+    "overall": {
+      "n_factual": 7,
+      "n_claims": 126,
+      "pass_rate": 0.056
+    }
+  },
+  "0.80": {
+    "threshold": 0.8,
+    "groups": {
+      "claude-opus-4.6_economics": {
+        "n_factual": 2,
+        "n_claims": 15,
+        "pass_rate": 0.133
+      },
+      "claude-opus-4.6_physics": {
+        "n_factual": 1,
+        "n_claims": 9,
+        "pass_rate": 0.111
+      },
+      "deepseek-r1_economics": {
+        "n_factual": 0,
+        "n_claims": 22,
+        "pass_rate": 0.0
+      },
+      "deepseek-r1_physics": {
+        "n_factual": 0,
+        "n_claims": 26,
+        "pass_rate": 0.0
+      },
+      "gemini-3-pro_economics": {
+        "n_factual": 2,
+        "n_claims": 25,
+        "pass_rate": 0.08
+      },
+      "gemini-3-pro_physics": {
+        "n_factual": 0,
+        "n_claims": 29,
+        "pass_rate": 0.0
+      }
+    },
+    "overall": {
+      "n_factual": 5,
+      "n_claims": 126,
+      "pass_rate": 0.04
+    }
+  }
+}
